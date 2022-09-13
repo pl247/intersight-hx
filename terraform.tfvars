@@ -1,11 +1,11 @@
 # API access
-api_key      = "59af0e11f11aa10001678016/59af0ceef11aa100016748f0/5fad6f147564612d3348b2cb"
+api_key      = "59af0e11f11aa10001678016/59af0ceef11aa100016748f0/61f043507564612d33eda2d3"
 api_key_file = "SecretKey.txt"
 api_endpoint = "https://www.intersight.com"
 
 # Hyperflex Cluster
 intersight_organization_name = "default"
-cluster_name                 = "HXAF-M5"
+cluster_name                 = "HX-DR"
 disk_cleanup                 = "true"
 vdi_opt                      = "false"
 laz_config                   = "false"
@@ -134,8 +134,8 @@ proxy_password = "password"
 
 
 server_names = {
-  "UCSPE-172-22-96-140-1" = { hostname = "hx-01", esx_ip = "10.29.133.246", hx_ip = "10.29.133.238" },
-  "UCSPE-172-22-96-140-2" = { hostname = "hx-02", esx_ip = "10.29.133.247", hx_ip = "10.29.133.239" },
-  "UCSPE-172-22-96-140-3" = { hostname = "hx-03", esx_ip = "10.29.133.248", hx_ip = "10.29.133.240" },
-  "UCSPE-172-22-96-140-4" = { hostname = "hx-04", esx_ip = "10.29.133.249", hx_ip = "10.29.133.241" }
+  "HX-DR-1" = { hostname = "hx-01", esx_ip = "10.29.133.246", hx_ip = "10.29.133.238" },
+  "HX-DR-2" = { hostname = "hx-02", esx_ip = "10.29.133.247", hx_ip = "10.29.133.239" },
+  "HX-DR-3" = { hostname = "hx-03", esx_ip = "10.29.133.248", hx_ip = "10.29.133.240" },
+  "HX-DR-4" = { hostname = "hx-04", esx_ip = "10.29.133.249", hx_ip = "10.29.133.241" }
 }
